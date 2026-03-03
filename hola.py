@@ -1,4 +1,7 @@
 # Variables en python
+from tkinter.font import names
+
+
 name = "Ruperto" # string
 #age = 30 # integer
 height = 1.75 # float   
@@ -69,7 +72,7 @@ result_modulo = number1 % number2
 # else:
 #     print("Eres menor de edad")
 
-# condicionales en cadena
+# # condicionales en cadena
 # age = 19
 # weekday = "Lunes"
 
@@ -92,47 +95,52 @@ result_modulo = number1 % number2
 # if (age >= 18) and ((weekday == "Viernes") or (weekday == "Sábado")):
 #         print("Eres mayor de edad y es viernes o sábado")
 # else:
-#     print("Eres menor de edad")
+#     print("Eres menor de edad y no es viernes ni sábado")
 
-# estructuras de datos
-# cadena de texto
-greeting = "Hola, ¿cómo estás?"
-number1 = 10
-number_float = 3.14
-is_raining = False  
+# # estructuras de datos
+# # cadena de texto
+# greeting = "Hola, ¿cómo estás?"
+# number1 = 10
+# number_float = 3.14
+# is_raining = False  
 
-# lista
-fruits = ["manzana", "banana", "naranja", 10, 3.14, True]
-names = [
-    "Juan",
-    "María",
-    "Pedro"
-    ]
+# # lista
+# fruits = ["manzana", "banana", "naranja", 10, 3.14, True]
 
-# names.pop()
+# names_list = [
+#     "Juan",
+#     "María",
+#     "Pedro"
+#     ]
 
-# add a new name to the list
-# names.append("Ana")
-# print(names[-1])
+# # methods de lista
+# # names.pop()
 
-# tupla
-coordinates = (10.0, 20.0, 30.0)
+# # add a new name to the list
+# names_list.append("Ana")
+# print(names_list[-1])
+
+# names_list[0]= "Carlos"
+# print(names_list[0])
+
+# # tupla
+# coordinates = (10.0, 20.0, 30.0)
 
 # print(coordinates[0])
 
-names[0] = "Carlos"
+# names[0] = "Carlos"
 # print(names[0])
 
 # coordinates[0] = 15.0
 # print(coordinates[0])
 
 # diccionario
-person = {
-    "name": "Juan",
-    "age": 30,
-    "height": 1.75,
-    "is_student": True,
-    "grades": [8, 9, 10]
-}
+# person = {
+#     "name": "Juan",
+#     "age": 30,
+#     "height": 1.75,
+#     "is_student": True,
+#     "grades": [8, 9, 10]
+# }
 
-print(person["name"])
+# print(person["height"])

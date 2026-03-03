@@ -158,3 +158,37 @@ names = ["Juan", "María", "Pedro"]
 # for name in range(len(names)):
 #     print(names[name])
 
+# functions in python
+
+# def greet():
+#     print("Hola, ¿cómo estás?")
+
+# greet()
+
+# def greet(name):
+#     print(f"Hola {name}, ¿cómo estás?")
+
+# greet("Ruperto")
+
+# suma de dos numeros
+# def sum_numbers(num1, num2):
+#     result = num1 + num2
+#     return result
+
+# print(sum_numbers(5, 10))
+
+# resta de dos numeros
+def subtract_numbers(num1:int, num2:int) -> int:
+    """
+    Esta función recibe dos números y devuelve la resta de ambos.
+    Args:
+        num1 (int): El primer número.
+        num2 (int): El segundo número.
+    Returns:
+        int: La resta de num1 y num2.
+    """
+    result = num1 - num2
+    return result
+
+print(subtract_numbers(num2=5, num1=10))
+

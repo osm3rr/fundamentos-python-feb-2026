@@ -144,3 +144,17 @@ result_modulo = number1 % number2
 # }
 
 # print(person["height"])
+
+
+# Ciclo for
+# name list
+names = ["Juan", "María", "Pedro"]
+
+# for name in names:
+#     print(name)
+
+# print(len(names))
+
+# for name in range(len(names)):
+#     print(names[name])
+
